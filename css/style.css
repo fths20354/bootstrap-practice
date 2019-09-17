@@ -21,9 +21,10 @@
 
 .carousel img {
   height: 70vh;
+  width: 40vw;
   overflow: hidden;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .carousel-caption {
