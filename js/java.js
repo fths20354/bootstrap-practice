@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $("#step2,#step3").fadeOut(1000);
+    $("#step1").fadeIn(1000);
+    $("#step1-bt").click(function(){
+        $("#step2,#step3").fadeOut(1000);
+        $("#step1").fadeIn(1000);
+    });
+    $("#step2-bt").click(function(){
+        $("#step1,#step3").fadeOut(1000);
+        $("#step2").fadeIn(1000);
+    });
+    $("#step3-bt").click(function(){
+        $("#step1,#step2").fadeOut(1000);
+        $("#step3").fadeIn(1000);
+    });
+});

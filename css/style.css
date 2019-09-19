@@ -35,4 +35,50 @@ footer {
   font-size: 1.5em;
   margin-bottom: 0px;
 }
+
+.row img {
+  height: 40vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+
+.slick-prev, .slick-next {
+  display: none !important;
+}
+
+#step-out {
+  height: 50vh;
+  width: 60vw;
+  position: relative;
+  margin-left: 20vw;
+}
+
+#step1 {
+  height: 50vh;
+  width: 60vw;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+}
+
+#step2 {
+  height: 50vh;
+  width: 60vw;
+  display: block;
+  background-color: rgba(0, 255, 0, 0.5);
+  position: absolute;
+}
+
+#step3 {
+  height: 50vh;
+  width: 60vw;
+  display: block;
+  background-color: rgba(0, 0, 255, 0.5);
+  position: absolute;
+}
+
+.close {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
